@@ -1,0 +1,18 @@
+Package: myHW3
+Title: Simple Linear Model Summary Output
+Version: 0.0.0.9000
+Author: Abigial Loe <agloe@umich.edu>
+Maintainer: <agloe@umich.edu>
+Description: Provides the table of coefficient estimates using the lm command. Slight differences in significance level remain due to internal rounding/estimation differences.
+License: LGPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    ggplot2,
+    bench
+VignetteBuilder: knitr
+Config/testthat/edition: 3
